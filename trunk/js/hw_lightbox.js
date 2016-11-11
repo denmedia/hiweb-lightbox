@@ -16,7 +16,7 @@ var hw_lightbox = {
                 return jQuery(this).attr('href').match(/\.(jpg|png|gif)/i);
             }).each(function () {
                 var el = jQuery(this);
-                var gallery_id = el.closest('figure').length > 0 ? el.closest('figure').parent().attr('id') : hw_lightbox.makeid();
+                var gallery_id = el.closest('figure, div.gallery').length > 0 ? el.closest('figure').parent().attr('id') : hw_lightbox.makeid();
                 ///
                 if (!hw_lightbox.galleries.hasOwnProperty(gallery_id)) {
                     hw_lightbox.galleries[gallery_id] = [];

@@ -3,7 +3,7 @@
 	Plugin Name: hiWeb Lightbox
 	Plugin URI: http://plugins.hiweb.moscow/lightbox
 	Description: Auto-open all <a[href="*.jpg"]> in Lightbox
-	Version: 1.0.0.0
+	Version: 1.0.0.1
 	Author: Den Media
 	Author URI: http://hiweb.moscow
 	*/
